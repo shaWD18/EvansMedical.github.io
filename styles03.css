@@ -1,0 +1,753 @@
+/* Header Styles */
+header {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    padding: 10px;
+    
+}
+
+
+header nav {
+    width: 100%;
+    display: flex;
+    background-color: #91B7D9;
+    padding: 1rem;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+header ul li {
+    display: inline;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header ul li a:hover {
+    background-color: #16c5bc;
+    color: #205a99;
+}
+
+header ul li a:active {
+    background-color: #ffff27;
+    color: #59a8ee;
+}
+
+nav a:visited {
+    color: rgb(171, 92, 177);
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+line-height: 1.5rem;
+text-align: center;
+justify-content: center;
+}
+
+.navlink{
+    background-color: #aed5f8;
+    border-radius: 8px;
+    box-shadow: rgb(218, 218, 218) 0 0 10px 0 ;
+}
+
+.navlink a{
+    font-weight: bold;
+    color: #16c5bc;
+    font-style:italic;
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Main */
+#opening {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+#opening h1{
+    color: #052d77;
+}
+
+h1#ourservices {
+    color: rgb(60, 155, 250);
+    margin: 20px 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    color: #333;
+}
+
+.navlink p {
+    background-color: #91B7D9;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: rgb(198, 198, 198) 0 0 10px 0;
+}
+
+.navlink a {
+    color: rgb(60, 155, 250);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navlink a:hover {
+    text-decoration: underline;
+}
+
+/* Flexbox Container */
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+/* Flexbox Child (Boxes) */
+.box {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box .hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.box:hover .hover-image {
+    opacity: 1;
+}
+
+.title {
+    text-align: center;
+    background-color: rgb(169, 204, 251);
+    padding: 10px;
+    font-size: 18px;
+    color: #000000;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+#outer{
+    width: 60%;
+    box-shadow: #cdcdcd 0 0 10px 0;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 8px;
+    margin-bottom: 30px;
+
+}
+
+#Pr{
+    color: #052d77;
+}
+
+
+
+.footer-contact p{
+    color: white;
+}
+
+#outer h1{
+    color: #205a99;
+    font-size: xx-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#PHARM{
+    box-shadow: #cecece 0 0 10px 0;
+    text-align: left;
+    border-radius: 8px;   
+    margin: 20px;
+    padding: 20px;
+}
+
+.fillbox{
+    background-color: #f0f0ef;
+    border: 0;
+    border-radius: 4px;
+    width: 90%;
+    margin: 10px;
+    padding: 15px;
+    
+
+}
+
+label{
+    padding: 20px ;
+    font-weight: bold;
+    color: rgb(49, 102, 162);
+    font-size: 16px;
+}
+
+.fillbox:focus {
+    border: 1px solid #205a99;
+    outline: none; 
+    background-color: #fff; }
+
+.custom-button{
+    background-color: #054BA6;
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px auto;
+    display: block;
+    width: 150px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #062f5c;
+ }
+
+#button{
+    display: flex;
+    
+}
+
+footer {
+    background-color: #054BA6;
+    color: #ecf0f1;
+    padding: 20px 0;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    max-width: 150px;
+   
+}
+
+.footer-nav {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-nav h3 {
+    margin-bottom: 10px;
+}
+
+.footer-nav ul {
+    list-style: none;
+}
+
+.footer-nav ul li {
+    margin-bottom: 8px;
+}
+
+.footer-nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.footer-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-contact {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-contact h3 {
+    margin-bottom: 10px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-text h5 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.contact-text p {
+    margin: 0;
+}
+
+.Refernces{
+    padding: 20px;
+    margin: 20px;
+}
+
+#pharmacy{
+    background-color: #daebfa;
+    border-radius: 8px;
+    box-shadow: #cbcbcb 0 0 10px 0;
+    width: 80%;
+    margin: 10% 10%;
+    padding: 10px;
+}
+
+
+/* Header Styles */
+header {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    color: black;
+}
+
+header nav {
+    width: 100%;
+    background-color: #91B7D9;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+}
+
+header ul li a {
+    color: #052d77;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header ul li a:hover {
+    background-color: #16c5bc;
+    color: #205a99;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Main Content */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section h2 {
+    border-bottom: 2px solid #689fda;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Products Section */
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.product {
+    border: 1px solid #85b0fb;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    background: #fff;
+    transition: transform 0.2s, box-shadow 0.2s;
+    flex: 1 1 calc(25% - 1.5rem);
+    max-width: 250px;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.product h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.product p {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.product button {
+    background: #002b59;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.product button:hover {
+    background: #87b6e5;
+}
+
+
+
+
+/* Footer */
+footer {
+    background-color: #054BA6;
+    color: #ecf0f1;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+.footer-nav, .footer-contact {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.footer-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .products-container {
+        flex-direction: column;
+    }
+
+    .product {
+        max-width: 100%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
+/* Responsive Design */
+@media (max-width: 800px) {
+    .container2 {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .box {
+        width: 250px;
+        height: 350px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+    header {
+        flex-direction: column;
+    }
+    
+    header nav {
+        font-size: small;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-nav, .footer-contact {
+        flex: none;
+        margin-bottom: 20px;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    #outer{
+        align-items: center;
+        width: 90%;
+        margin: 5% 5%;
+        padding-right: 14px;
+    }
+    #PHARM{
+        width: 85%;
+        padding: 20px;
+       
+        
+    }
+
+    .fillbox{
+        width: 75%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container2 {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .box {
+        width: 100%;
+        height: auto;
+    }
+
+    .title {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .navlink p {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    header nav {
+        font-size: smaller;
+    }
+
+    .logo {
+        height: 100px;
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .contact-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact-icon {
+        margin-bottom: 5px;
+    }
+    #outer{
+        align-items: center;
+        width: 90%;
+        margin: 5% 5%;
+        padding-right: 14px;
+       
+    }
+    #PHARM{
+        width: 80%;
+        padding: 20px;
+       
+        
+    }
+
+    .fillbox{
+        width: 75%;
+    }
+}
+
+
+
+
+
+/* Cart Table Styles */
+#cart {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+#cart th, #cart td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#cart th {
+    background-color: #eff0f1;
+    font-weight: bold;
+}
+
+#cart tbody tr:hover {
+    background-color: #d4e8ff;
+}
+
+#cart tfoot td {
+    font-weight: bold;
+    background-color: #ebecec;
+}
+
+/* Cart Actions */
+.cart-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cart-actions button {
+    padding: 10px 20px;
+    background-color:#016ac7;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cart-actions button:hover {
+    background-color: #000000;
+}
+
+
+
+
+
+#Intro{
+    background-color:#d4e5f9;
+    color: #060e16;
+    border-radius: 12px;
+    font-weight: 500;
+    padding: 20px;
+    box-shadow: #bebdbd 0 0 10px 0 ;
+}
+

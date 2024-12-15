@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Evan's Medical Centre Pharmacy</title>
+    <link rel="stylesheet" href="styles03.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#054ba6">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img class="logo" src="images/logo02.png" alt="header logo">
+        </a>
+        <h1>Evan's Medical Centre Pharmacy</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="servicespage.html">Services</a></li>
+                <li><a href="consultationreservation.html">Consultation Reservation</a></li>
+                <li><a href="doctorspage.html">Our Doctors</a></li>
+                <li><a href="pharmacypage.html">Pharmacy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <p id="Intro">Welcome to Evan's Medical Centre Pharmacy!<br>
+
+            Your trusted source for quality medications and healthcare products. We offer a wide range of pharmaceuticals, expert advice, and personalized service to ensure your health and well-being. Explore our online pharmacy for an easy, seamless shopping experience.
+            
+            Your health is our priority!
+            
+            </p>
+
+
+        <!-- Medicines will be added dynamically here -->
+        <div id="products"></div>
+
+        <section>
+            <h2>Your Cart</h2>
+            <table id="cart">
+                <thead>
+                    <tr>
+                        <th>Medicine</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Items added to the cart will be dynamically displayed here -->
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Total</td>
+                        <td id="cart-total">0</td>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <div class="cart-actions">
+            <button id="add-to-favorites">Add to Favorites</button>
+            <button id="apply-favorites">Apply Favorites</button>
+            <button id="checkout">Checkout</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="index.html">
+                    <img class="logo" src="images/logo2dark.png" alt="footer logo">
+                </a>
+            </div>
+            <nav class="footer-nav">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="servicespage.html">Services</a></li>
+                    <li><a href="consultationreservation.html">Consultation Reservations</a></li>
+                    <li><a href="pharmacypage.html">Pharmacy</a></li>
+                    <li><a href="doctorspage.html">Doctors</a></li>
+                </ul>
+            </nav>
+
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <div class="contact-item">
+                    <img src="images/2.png" alt="Phone Icon" class="contact-icon">
+                    <div class="contact-text">
+                        <p>Call us:</p>
+                        <h5>0115 XXX XXX</h5>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <img src="images/4.png" alt="Live Chat Icon" class="contact-icon">
+                    <div class="contact-text">
+                        <p>Contact Online Support:</p>
+                        <h5>Evan_Medics</h5>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <img src="images/3.png" alt="Email Icon" class="contact-icon">
+                    <div class="contact-text">
+                        <p>Email us:</p>
+                        <h5>Evanshospital@slt.lk</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="pharmacy.js" defer></script>
+</body>
+</html>

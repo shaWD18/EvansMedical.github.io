@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Evan's Medical Centre</title>
+    <link rel="stylesheet" href="styles04.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#054ba6">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img class="logo" src="images/logo02.png" alt="header logo">
+        </a>
+        <h1>Evan's Medical Centre</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="servicespage.html">Services</a></li>
+                <li><a href="consultationreservation.html">Consultation Reservation</a></li>
+                <li><a href="doctorspage.html">Our Doctors</a></li>
+                <li><a href="pharmacypage.html">Pharmacy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Order Summary Section -->
+        <section>
+            <h3>Your Order</h3>
+            <table id="cart-summary">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Cart items will be dynamically added here -->
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3"><strong>Total</strong></td>
+                        <td id="cart-total">Rs 0.00</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <!-- Delivery Information Section -->
+        <section>
+            <h3>Delivery Information</h3>
+            <form id="checkout-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" placeholder="Enter your address" required><br>
+
+                <label for="phone">Phone:</label>
+                <input type="number" id="phone" name="phone" placeholder="Enter your phone number" maxlength= 10 required><br>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="phone" placeholder="Enter your email address" required><br>
+
+
+                
+
+                
+
+
+
+                <button type="submit">Buy Now</button>
+            </form>
+        </section>
+
+        <!-- Thank You Message -->
+        <div id="thank-you-message" style="display: none;">
+            <h2>Thank you for your purchase!</h2>
+            <p>Your order has been placed successfully. You will recieve your order in approximately 4 days.</p>
+        </div>
+
+        <script src="checkout2.js"> </script>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="index.html">
+                    <img class="logo" src="images/logo2dark.png" alt="footer logo">
+                </a>
+            </div>
+            <nav class="footer-nav">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="servicespage.html">Services</a></li>
+                    <li><a href="consultationreservation.html">Consultation Reservations</a></li>
+                    <li><a href="pharmacypage.html">Pharmacy</a></li>
+                    <li><a href="doctorspage.html">Doctors</a></li>
+                </ul>
+            </nav>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <div class="contact-item">
+                    <img src="images/2.png" alt="Phone Icon" class="contact-icon">
+                    <div class="contact-text">
+                        <p>Call us:</p>
+                        <h5>0115 XXX XXX</h5>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <img src="images/4.png" alt="Live Chat Icon" class="contact-icon">
+                    <div class="contact-text">
+                        <p>Contact Online Support:</p>
+                        <h5>Evan_Medics</h5>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <img src="images/3.png" alt="Email Icon" class="contact-icon">
+                    <div class="contact-text">
+                        <p>Email us:</p>
+                        <h5>Evanshospital@slt.lk</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

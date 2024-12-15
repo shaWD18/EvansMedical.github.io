@@ -1,0 +1,274 @@
+{
+    "Antibiotics": [
+      {
+        "id": "ag1",
+        "name": "Amoxicillin",
+        "price": 337,
+        "image": "medicines/Amoxicillin.jpeg",
+        "unit": "Rs"
+      },
+      {
+        "id": "ag2",
+        "name": "Azithromycin ",
+        "price": 375,
+        "image": "medicines/azithromycin.webp",
+        "unit": "Rs"
+      },
+      {
+        "id": "ag3",
+        "name": "Cefalexin ",
+        "price": 405,
+        "image": "medicines/cefalexin.webp",
+        "unit": "Rs"
+      },
+      {
+        "id": "ag4",
+        "name": "Ciprofloxacin ",
+        "price": 345,
+        "image": "medicines/Ciprofloxacin.webp",
+        "unit": "Rs"
+      },  {
+        "id": "ag5",
+        "name": "Clindamycin ",
+        "price": 344,
+        "image": "medicines/Clindamycin.webp",
+        "unit": "Rs"
+      }, 
+       {
+        "id": "ag6",
+        "name": "Doxycycline",
+        "price": 654,
+        "image": "medicines/doxycycline.webp",
+        "unit": "Rs"
+      }
+      
+      
+    ]
+
+    ,"Analgesics" : [{
+      "id": "ab1",
+        "name": "Aspirin",
+        "price": 432,
+        "image": "medicines/asprin.avif",
+        "unit": "Rs"
+      },
+      {
+        "id": "ab2",
+        "name": "Ibuprofen",
+        "price": 443,
+        "image": "medicines/ibuprofen.jpg",
+        "unit": "Rs"
+      },
+      {
+        "id": "ab3",
+          "name": "Acetaminophen ",
+          "price": 765,
+          "image": "medicines/acetaminophen.jpeg",
+          "unit": "Rs"
+        },
+        {
+          "id": "ab4",
+          "name": "Naproxen ",
+          "price": 345,
+          "image": "medicines/Naproxen.jpeg",
+          "unit": "Rs"
+        },{
+          "id": "ab5",
+            "name": "Codeine",
+            "price": 875,
+            "image": "medicines/Codeine.avif",
+            "unit": "Rs"
+          },
+          {
+            "id": "ab6",
+            "name": "Tramadol ",
+            "price": 565,
+            "image": "medicines/tramadol.jpeg",
+            "unit": "Rs"
+          }
+
+    ]
+    ,"Antidepressant" : [{
+      "id": "ad1",
+        "name": "Fluoxetine ",
+        "price": 123.00,
+        "image": "medicines/Fluoxetine.jpeg",
+        "unit": "Rs"
+      },
+      {
+        "id": "ad2",
+        "name": "Sertraline ",
+        "price": 456,
+        "image": "medicines/Sertraline.jpg",
+        "unit": "Rs"
+      },
+      {
+        "id": "ad3",
+          "name": "Venlafaxine ",
+          "price": 789.00,
+          "image": "medicines/Venlafaxine.jpeg",
+          "unit": "Rs"
+        },
+        {
+          "id": "ad4",
+          "name": "Escitalopram ",
+          "price": 894.00,
+          "image": "medicines/Escitalopram.jpeg",
+          "unit": "Rs"
+        },{
+          "id": "ad5",
+            "name": "Bupropion ",
+            "price": 454.00,
+            "image": "medicines/Bupropion.jpeg",
+            "unit": "Rs"
+          },
+          {
+            "id": "ad6",
+            "name": "Amitriptyline ",
+            "price": 134.00,
+            "image": "medicines/Amitriptyline.jpeg",
+            "unit": "Rs"
+          }
+
+    ]
+    ,"Antihypertensive  " : [{
+      "id": "ah1",
+        "name": "Lisinopril ",
+        "price": 654.00,
+        "image": "medicines/Lisinopril.jpeg",
+        "unit": "Rs"
+      },
+      {
+        "id": "ah2",
+        "name": "Losartan  ",
+        "price": 344.00,
+        "image": "medicines/Losartan.jpg",
+        "unit": "Rs"
+      },
+      {
+        "id": "ah3",
+          "name": "Amlodipine ",
+          "price": 233.00,
+          "image": "medicines/Amlodipine.jpg",
+          "unit": "Rs"
+        },
+        {
+          "id": "ah4",
+          "name": "Hydrochlorothiazide ",
+          "price": 434.00,
+          "image": "medicines/Hydrochlorothiazide.jpeg",
+          "unit": "Rs"
+        },{
+          "id": "ah5",
+            "name": "Metoprolol ",
+            "price": 344.00,
+            "image": "medicines/Metoprolol.jpg",
+            "unit": "Rs"
+          },
+          {
+            "id": "ah6",
+            "name": "Valsartan ",
+            "price": 450.00,
+            "image": "medicines/Valsartan.jpeg",
+            "unit": "Rs"
+          }
+
+    ]
+
+     ,"Antihistamines" : [{
+      "id": "as1",
+        "name": "Loratadine",
+        "price": 432,
+        "image": "medicines/Loratadine.jpg",
+        "unit": "Rs"
+      },
+      {
+        "id": "as2",
+        "name": "Cetrizine",
+        "price": 443,
+        "image": "medicines/Cetrine.jpeg",
+        "unit": "Rs"
+      },
+      {
+        "id": "as3",
+          "name": "Fexofenadine",
+          "price": 765,
+          "image": "medicines/Fexofenadine.jpeg",
+          "unit": "Rs"
+        },
+        {
+          "id": "as4",
+          "name": "Levocetrizine",
+          "price": 345,
+          "image": "medicines/levocetirizine.jpeg",
+          "unit": "Rs"
+        },{
+          "id": "as5",
+            "name": "Famotidine",
+            "price": 875,
+            "image": "medicines/Fexofenadine.jpeg",
+            "unit": "Rs"
+          },
+          {
+            "id": "as6",
+            "name": "Ranitidine",
+            "price": 565,
+            "image": "medicines/ranitidine.webp",
+            "unit": "Rs"
+          }
+
+    ],
+    "other medical " : [{
+      "id": "om1",
+        "name": "Pain Relief Spray",
+        "price": 1234.00,
+        "image": "medicines/Pain Relief Spray.png",
+        "unit": "Rs"
+      },
+      {
+        "id": "om2",
+        "name": "Face mask 60 pcs",
+        "price": 1450.00,
+        "image": "medicines/facemask.png",
+        "unit": "Rs"
+      },
+      {
+        "id": "om3",
+          "name": "Surgical Gloves 50 pcs",
+          "price": 1400.00,
+          "image": "medicines/Surgicalglove.webp",
+          "unit": "Rs"
+        },
+        {
+          "id": "om4",
+          "name": "Termometer ",
+          "price": 1300,
+          "image": "medicines/Thermometer.webp",
+          "unit": "Rs"
+        },{
+          "id": "om5",
+            "name": "Hot bag",
+            "price": 990,
+            "image": "medicines/hotbag.jpeg",
+            "unit": "Rs"
+          },
+          {
+            "id": "om6",
+            "name": "Ice pack",
+            "price": 1000.00,
+            "image": "medicines/icepack.jpg",
+            "unit": "Rs"
+          }
+          ,
+          {
+            "id": "om7",
+            "name": "Plasters",
+            "price": 50.00,
+            "image": "medicines/plasters.jpg",
+            "unit": "Rs"
+          }
+
+    ]
+    
+  }
+  
